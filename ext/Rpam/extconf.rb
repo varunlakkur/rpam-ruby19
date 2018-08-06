@@ -1,8 +1,5 @@
 require 'mkmf'
 
-$CFLAGS = ""
-$LDFLAGS = ""
-
 have_pam_appl_h = have_header("security/pam_appl.h")
 have_pam_modules_h = have_header("security/pam_modules.h")
 
